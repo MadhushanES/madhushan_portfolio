@@ -5,9 +5,9 @@ export const resumeData = {
   email: "madhushanpilapitiya@gmail.com",
   phone: "+94775333507",
   links: {
-    linkedin: "#", // Add proper URL based on CV if available
-    github: "#", // Add proper URL based on CV if available
-    credly: "#", // Add proper URL based on CV if available
+    linkedin: "https://www.linkedin.com/in/mespilapitiya/", // Add proper URL based on CV if available
+    github: "https://github.com/MadhushanES", // Add proper URL based on CV if available
+    credly: "https://www.credly.com/users/madhushan-pilapitiya/badges#credly", // Add proper URL based on CV if available
   },
   summary: "TechOps Engineer and Co-Founder/CEO of Miraq LABS (Pvt) Ltd with notable experience in cloud infrastructure operations, automation, and incident management. Passionate about the cybersecurity field, integrating security-first practices across DevOps technologies and system architectures. Proven expertise in managing infrastructures, Azure Cloud Services, Docker, Kubernetes, CI/CD pipelines, and database administration. Skilled in troubleshooting complex issues and providing 24x7 operational support alongside strategic company vision.",
   skills: {
