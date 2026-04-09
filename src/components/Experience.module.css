@@ -1,0 +1,137 @@
+.experienceSection {
+  padding: 6rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.sectionTitle {
+  display: flex;
+  align-items: center;
+  font-size: clamp(1.5rem, 5vw, 2rem);
+  color: var(--foreground);
+  margin-bottom: 3rem;
+  white-space: nowrap;
+}
+
+.sectionTitle::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+  max-width: 300px;
+  background-color: var(--border);
+  margin-left: 1.5rem;
+}
+
+.index {
+  font-family: var(--font-mono);
+  color: var(--neon-accent);
+  font-size: clamp(1rem, 3vw, 1.25rem);
+  margin-right: 0.5rem;
+  font-weight: 400;
+}
+
+.timeline {
+  position: relative;
+  padding-left: 2rem;
+  border-left: 2px solid var(--border);
+}
+
+.timelineItem {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.timelineItem:last-child {
+  margin-bottom: 0;
+}
+
+.timelineMarker {
+  position: absolute;
+  left: -2.35rem; /* center on the border */
+  top: 0.25rem;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--background);
+  border: 2px solid var(--neon-accent);
+  transition: all 0.2s ease;
+}
+
+.timelineItem:hover .timelineMarker {
+  background: var(--neon-accent);
+  box-shadow: 0 0 10px var(--neon-accent);
+}
+
+.timelineContent {
+  padding: 1.5rem;
+  background: var(--surface);
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  transition: transform 0.2s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.timelineContent:hover {
+  border-color: rgba(14, 165, 233, 0.3);
+}
+
+.logId {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--neon-accent);
+  opacity: 0.5;
+  margin-bottom: 0.5rem;
+}
+
+.jobHeader {
+  margin-bottom: 1.5rem;
+}
+
+.jobTitle {
+  font-size: 1.25rem;
+  color: var(--foreground);
+  margin-bottom: 0.25rem;
+}
+
+.company {
+  color: var(--neon-accent);
+}
+
+.period {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.achievements {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.achievements li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.achievements li::before {
+  content: "▹";
+  position: absolute;
+  left: 0;
+  color: var(--neon-accent);
+}
+
+.achievements li:last-child {
+  margin-bottom: 0;
+}
