@@ -11,7 +11,7 @@ export default function Home() {
       <header className={styles.header}>
         <nav className={styles.nav}>
           <div className={styles.logo}>
-            <a href="#">MP</a>
+            <a href="#">MESP</a>
           </div>
           <div className={styles.navLinks}>
             <a href="#skills">01. Skills</a>
